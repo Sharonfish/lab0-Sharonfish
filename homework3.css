@@ -1,0 +1,173 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    background-color: #eeeeee;
+  }
+  
+  #intro {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 50px;
+  }
+  
+  .insideborder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .para {
+    font-weight: 300;
+    margin-left: 10px;
+  }
+  
+  h2 {
+    font-size: medium;
+    font-weight: 200;
+  }
+  
+  /* Classes that you might find useful */
+  /* Note* These classes do not cover every possibloe case to build you flags, you will have to continue to add your own*/
+  
+  .flag {
+    height: 300px;
+    width: 500px;
+    border-style: solid;
+    margin-bottom: 5rem;
+  }
+  
+  .horiz {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .twovert {
+    height: 50%;
+  }
+  
+  .threevert {
+    height: 33.3%;
+  }
+  
+  .ninevert {
+    height: 11.111%;
+  }
+
+  .threehoriz {
+    width: 33.3%;
+  }
+  
+  .skinny {
+    height: 17.5%;
+  }
+  
+  .fat {
+    height: 30%;
+  }
+  
+  .circle {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 85px;
+    top: 50px;
+  }
+  
+  /* Colors/ Feel free to add your own! */
+  
+  .red {
+    background-color: red;
+  }
+  
+  .orange {
+    background-color: orange;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .lightblue {
+    background-color: lightblue;
+  }
+  
+  .purple {
+    background-color: purple;
+  }
+  
+  .white {
+    background-color: #fff;
+  }
+
+  .ThailandRed{
+    background-color: #A51931;
+  }
+
+  .ThailandWhite{
+    background-color: #F4F5F8;
+  }
+
+  .ThailandBlue{
+    background-color: #2D2A4A;
+  }
+
+  .RomaniaRed{
+    background-color: #C8102E;
+  }
+
+  .RomaniaYellow{
+    background-color: #FFCD00;
+  }
+
+  .RomaniaBlue{
+    background-color: #012169;
+  }
+
+  .MexicoGreen{
+    background-color: #006341;
+  }
+
+  .MexicoWhite{
+    background-color: #FFFFFF;
+    position: relative;
+  }
+
+  .MexicoRed{
+    background-color: #CE1126;
+  }
+
+  .GreeceBlue{
+    background-color: #004C98;
+  }
+
+  .GreeceInner{
+    height: 166.5px; 
+    width: 166.5px;
+    float: left;
+    background-color: white;
+    display: flex;
+    gap: 19.5%;
+  }
+
+  .Innerrow{
+    position: relative;
+    width: 100px;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    row-gap: 19.5%;
+  }
+  .quater{
+    width: 100%;
+    height: 100%;
+  }
