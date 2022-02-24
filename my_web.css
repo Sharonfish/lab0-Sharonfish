@@ -1,0 +1,194 @@
+.splash-page {
+    display: flex;
+    flex-direction: row;
+}
+
+.intro {
+    position: relative;
+    height: 600px;
+    width: 70%;
+    /*border: 2px dotted blue;*/
+    background-color: white;
+}
+
+.right-column {
+    height: 580px;
+    width: 30%;
+    /*border: 2px dotted blue;*/
+    background-color: rgba(0, 0, 0, 0.822);
+}
+
+.nav {
+    position: absolute;
+    height: 350px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.822);
+    margin-left: 11%;
+    margin-top: 15%;
+    display: flex;
+    flex-direction: row;
+}
+
+.info {
+    width: 76%;
+    height: 100%;
+    background-color: white;
+}
+
+.my_image {
+    width: 24%;
+    height: 100%;
+    background: url('golden_bear.png') no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.image_text {
+    margin-top: 60%;
+    color: gray;
+    font-size: 20px;
+}
+
+.all_info {
+    margin-top: 5%;
+}
+
+.name {
+    font-size: 75px;
+    font-weight: bold;
+}
+
+.detail {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.contact {
+    margin-top: 20px;
+    font-size: 25px;
+    height: 40px;
+    width: 160px;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.822);
+    border-radius: 10px;
+}
+
+.navbar {
+    width: 80%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 6%;
+    margin-left: 10%;
+    font-size: 20px;
+}
+
+.bar1:hover {
+    border-bottom: 2px solid white;
+}
+
+.bar2:hover {
+    border-bottom: 2px solid white;
+}
+
+.bar3:hover {
+    border-bottom: 2px solid white;
+}
+
+.bar4:hover {
+    border-bottom: 2px solid white;
+}
+
+.portfolio {
+    width: 100%;
+    height: 1000px;
+    background-color: rgba(0, 0, 0, 0.822);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.proj-col {
+    margin-top: 5%;
+    width: 43%;
+    /*background-color: lightblue;*/
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.proj-name {
+    width: 100%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.each-proj-name {
+    height: 30%;
+    width: 100%;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.module {
+    width: 100%;
+    height: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.module-img {
+    height: 100%;
+    width: 48%;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 350px;
+    font-size: 30px;
+}
+
+.module-other {
+    height: 100%;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.module-proj-name {
+    height: 25%;
+    width: 100%;
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+    line-height: 90px;
+}
+
+.module-proj-description {
+    height: 70%;
+    width: 100%;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.proj-content {
+    margin: 5% 10%;
+}
+
+.img_style{
+    width: 100%;
+    height: 80%;
+    margin-top: 15%;
+}
